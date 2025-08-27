@@ -15,3 +15,5 @@ refactor: → melhoria no código sem alterar funcionalidade.
 test: → adição ou ajuste de testes.
 
 chore: → tarefas de manutenção (dependências, configs etc).
+
+git commit -m "chore: commit inicial"

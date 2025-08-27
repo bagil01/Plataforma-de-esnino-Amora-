@@ -1,0 +1,17 @@
+Mensagens claras e padronizadas
+
+Use mensagens descritivas, curtas e no imperativo (como se fosse uma ordem).
+
+feat: → quando adicionar nova funcionalidade.
+
+fix: → quando corrigir bug.
+
+docs: → mudanças na documentação.
+
+style: → ajustes visuais ou de formatação.
+
+refactor: → melhoria no código sem alterar funcionalidade.
+
+test: → adição ou ajuste de testes.
+
+chore: → tarefas de manutenção (dependências, configs etc).

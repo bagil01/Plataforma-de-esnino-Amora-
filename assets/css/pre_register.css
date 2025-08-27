@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo */
+body {
+  background: linear-gradient(135deg,#007f95, #4be4ff, #007f95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  display: flex;
+  width: 50%;
+  background-color: #007f95;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+/* Opções (cards) */
+.option {
+  background: #fff;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1e3c72;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  font-weight: 600;
+}
+
+.option i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #2a5298;
+}
+
+/* Hover */
+.option:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: #f0f4ff;
+}
+
+/* Texto */
+.option span {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .option {
+    width: 140px;
+    height: 140px;
+  }
+
+  .option i {
+    font-size: 40px;
+  }
+
+  .option span {
+    font-size: 14px;
+  }
+}

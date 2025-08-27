@@ -17,3 +17,7 @@ test: → adição ou ajuste de testes.
 chore: → tarefas de manutenção (dependências, configs etc).
 
 git commit -m "chore: commit inicial"
+
+mkdir nome_da_pasta
+
+mkdir -p assets/img assets/css assets/js
